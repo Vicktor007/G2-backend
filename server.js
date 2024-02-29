@@ -19,7 +19,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ["http://localhost:5173", "https://e-stock-frontend-vite.vercel.app"],
+    origin: ["http://localhost:5173", "https://g2-frontend.vercel.app"],
     credentials: true
 }));
 
